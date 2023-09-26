@@ -1,0 +1,268 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+.header {
+    background: rgb(49,79,227);
+    background: radial-gradient(circle, rgba(49,79,227,1) 0%, rgba(240,38,79,1) 100%);
+    padding-bottom: 105px;
+    padding-top: 30px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* позиционирование по центру */ 
+}
+.hed{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.hed h1{
+    text-shadow:0px 1px 0 rgb(220,30,42),0px -1px 0 rgb(220,30,42),1px 0px 0 rgb(220,30,42),-1px 0px 0 rgb(220,30,42),1px 1px 0 rgb(220,30,42),1px -1px 0 rgb(220,30,42),-1px 1px 0 rgb(220,30,42),-1px -1px 0 rgb(220,30,42),0px 2px 0 rgb(220,30,42),0px -2px 0 rgb(220,30,42),2px 0px 0 rgb(220,30,42),-2px 0px 0 rgb(220,30,42),2px 2px 0 rgb(220,30,42),2px -2px 0 rgb(220,30,42),-2px 2px 0 rgb(220,30,42),-2px -2px 0 rgb(220,30,42),0px 3px 0 rgb(220,30,42),0px -3px 0 rgb(220,30,42),3px 0px 0 rgb(220,30,42),-3px 0px 0 rgb(220,30,42),3px 3px 0 rgb(220,30,42),3px -3px 0 rgb(220,30,42),-3px 3px 0 rgb(220,30,42),-3px -3px 0 rgb(220,30,42),0px 4px 0 rgb(220,30,42),0px -4px 0 rgb(220,30,42),4px 0px 0 rgb(220,30,42),-4px 0px 0 rgb(220,30,42),4px 4px 0 rgb(220,30,42),4px -4px 0 rgb(220,30,42),-4px 4px 0 rgb(220,30,42),-4px -4px 0 rgb(220,30,42),5px 5px 1px rgba(0,0,0,1);
+-webkit-text-shadow:0px 1px 0 rgb(220,30,42),0px -1px 0 rgb(220,30,42),1px 0px 0 rgb(220,30,42),-1px 0px 0 rgb(220,30,42),1px 1px 0 rgb(220,30,42),1px -1px 0 rgb(220,30,42),-1px 1px 0 rgb(220,30,42),-1px -1px 0 rgb(220,30,42),0px 2px 0 rgb(220,30,42),0px -2px 0 rgb(220,30,42),2px 0px 0 rgb(220,30,42),-2px 0px 0 rgb(220,30,42),2px 2px 0 rgb(220,30,42),2px -2px 0 rgb(220,30,42),-2px 2px 0 rgb(220,30,42),-2px -2px 0 rgb(220,30,42),0px 3px 0 rgb(220,30,42),0px -3px 0 rgb(220,30,42),3px 0px 0 rgb(220,30,42),-3px 0px 0 rgb(220,30,42),3px 3px 0 rgb(220,30,42),3px -3px 0 rgb(220,30,42),-3px 3px 0 rgb(220,30,42),-3px -3px 0 rgb(220,30,42),0px 4px 0 rgb(220,30,42),0px -4px 0 rgb(220,30,42),4px 0px 0 rgb(220,30,42),-4px 0px 0 rgb(220,30,42),4px 4px 0 rgb(220,30,42),4px -4px 0 rgb(220,30,42),-4px 4px 0 rgb(220,30,42),-4px -4px 0 rgb(220,30,42),5px 5px 1px rgba(0,0,0,1);
+-moz-text-shadow:0px 1px 0 rgb(220,30,42),0px -1px 0 rgb(220,30,42),1px 0px 0 rgb(220,30,42),-1px 0px 0 rgb(220,30,42),1px 1px 0 rgb(220,30,42),1px -1px 0 rgb(220,30,42),-1px 1px 0 rgb(220,30,42),-1px -1px 0 rgb(220,30,42),0px 2px 0 rgb(220,30,42),0px -2px 0 rgb(220,30,42),2px 0px 0 rgb(220,30,42),-2px 0px 0 rgb(220,30,42),2px 2px 0 rgb(220,30,42),2px -2px 0 rgb(220,30,42),-2px 2px 0 rgb(220,30,42),-2px -2px 0 rgb(220,30,42),0px 3px 0 rgb(220,30,42),0px -3px 0 rgb(220,30,42),3px 0px 0 rgb(220,30,42),-3px 0px 0 rgb(220,30,42),3px 3px 0 rgb(220,30,42),3px -3px 0 rgb(220,30,42),-3px 3px 0 rgb(220,30,42),-3px -3px 0 rgb(220,30,42),0px 4px 0 rgb(220,30,42),0px -4px 0 rgb(220,30,42),4px 0px 0 rgb(220,30,42),-4px 0px 0 rgb(220,30,42),4px 4px 0 rgb(220,30,42),4px -4px 0 rgb(220,30,42),-4px 4px 0 rgb(220,30,42),-4px -4px 0 rgb(220,30,42),5px 5px 1px rgba(0,0,0,1);
+    font-size:55px;
+    color:rgb(255, 255, 255);
+    font-family:"Arial Black", Gadget, sans-serif;
+    margin: 0;
+}
+
+.nuv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nuv p{
+    text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-webkit-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-moz-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    font-size:19px;
+    color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.62em;
+
+    width: 270px;
+    border: 2px solid #0f2bcb;
+    padding: 15px 5px;
+    text-align: center;
+}
+.coloor{
+    background: rgb(196,219,33);
+    background: radial-gradient(circle, rgba(196,219,33,1) 0%, rgba(14,167,96,1) 100%);
+    padding-bottom: 200px;
+}
+.vun{
+    margin-bottom: 60px;
+    padding-top: 60px;
+}
+.vun h2{
+    margin: 0;
+    text-shadow:0px 1px 0 rgb(40,230,73),0px -1px 0 rgb(40,230,73),1px 0px 0 rgb(40,230,73),-1px 0px 0 rgb(40,230,73),1px 1px 0 rgb(40,230,73),1px -1px 0 rgb(40,230,73),-1px 1px 0 rgb(40,230,73),-1px -1px 0 rgb(40,230,73),0px 2px 0 rgb(40,230,73),0px -2px 0 rgb(40,230,73),2px 0px 0 rgb(40,230,73),-2px 0px 0 rgb(40,230,73),2px 2px 0 rgb(40,230,73),2px -2px 0 rgb(40,230,73),-2px 2px 0 rgb(40,230,73),-2px -2px 0 rgb(40,230,73),0px 3px 0 rgb(40,230,73),0px -3px 0 rgb(40,230,73),3px 0px 0 rgb(40,230,73),-3px 0px 0 rgb(40,230,73),3px 3px 0 rgb(40,230,73),3px -3px 0 rgb(40,230,73),-3px 3px 0 rgb(40,230,73),-3px -3px 0 rgb(40,230,73);
+        -webkit-text-shadow:0px 1px 0 rgb(40,230,73),0px -1px 0 rgb(40,230,73),1px 0px 0 rgb(40,230,73),-1px 0px 0 rgb(40,230,73),1px 1px 0 rgb(40,230,73),1px -1px 0 rgb(40,230,73),-1px 1px 0 rgb(40,230,73),-1px -1px 0 rgb(40,230,73),0px 2px 0 rgb(40,230,73),0px -2px 0 rgb(40,230,73),2px 0px 0 rgb(40,230,73),-2px 0px 0 rgb(40,230,73),2px 2px 0 rgb(40,230,73),2px -2px 0 rgb(40,230,73),-2px 2px 0 rgb(40,230,73),-2px -2px 0 rgb(40,230,73),0px 3px 0 rgb(40,230,73),0px -3px 0 rgb(40,230,73),3px 0px 0 rgb(40,230,73),-3px 0px 0 rgb(40,230,73),3px 3px 0 rgb(40,230,73),3px -3px 0 rgb(40,230,73),-3px 3px 0 rgb(40,230,73),-3px -3px 0 rgb(40,230,73);
+        -moz-text-shadow:0px 1px 0 rgb(40,230,73),0px -1px 0 rgb(40,230,73),1px 0px 0 rgb(40,230,73),-1px 0px 0 rgb(40,230,73),1px 1px 0 rgb(40,230,73),1px -1px 0 rgb(40,230,73),-1px 1px 0 rgb(40,230,73),-1px -1px 0 rgb(40,230,73),0px 2px 0 rgb(40,230,73),0px -2px 0 rgb(40,230,73),2px 0px 0 rgb(40,230,73),-2px 0px 0 rgb(40,230,73),2px 2px 0 rgb(40,230,73),2px -2px 0 rgb(40,230,73),-2px 2px 0 rgb(40,230,73),-2px -2px 0 rgb(40,230,73),0px 3px 0 rgb(40,230,73),0px -3px 0 rgb(40,230,73),3px 0px 0 rgb(40,230,73),-3px 0px 0 rgb(40,230,73),3px 3px 0 rgb(40,230,73),3px -3px 0 rgb(40,230,73),-3px 3px 0 rgb(40,230,73),-3px -3px 0 rgb(40,230,73);
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.btn{
+    text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-webkit-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-moz-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    width: 180px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    padding: 17px 15px;
+    text-align: center;
+}
+
+.power{
+    display: flex;
+    justify-content: space-between;
+}
+.colooor{
+    background: rgb(238,62,139);
+    background: radial-gradient(circle, rgba(238,62,139,1) 0%, rgba(114,101,236,1) 100%);
+    padding-bottom: 40px;
+}
+.uvn{
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.uvn h2{
+    text-shadow:0px 1px 0 rgb(249,123,226),0px -1px 0 rgb(249,123,226),1px 0px 0 rgb(249,123,226),-1px 0px 0 rgb(249,123,226),1px 1px 0 rgb(249,123,226),1px -1px 0 rgb(249,123,226),-1px 1px 0 rgb(249,123,226),-1px -1px 0 rgb(249,123,226),0px 2px 0 rgb(249,123,226),0px -2px 0 rgb(249,123,226),2px 0px 0 rgb(249,123,226),-2px 0px 0 rgb(249,123,226),2px 2px 0 rgb(249,123,226),2px -2px 0 rgb(249,123,226),-2px 2px 0 rgb(249,123,226),-2px -2px 0 rgb(249,123,226),0px 3px 0 rgb(249,123,226),0px -3px 0 rgb(249,123,226),3px 0px 0 rgb(249,123,226),-3px 0px 0 rgb(249,123,226),3px 3px 0 rgb(249,123,226),3px -3px 0 rgb(249,123,226),-3px 3px 0 rgb(249,123,226),-3px -3px 0 rgb(249,123,226);
+-webkit-text-shadow:0px 1px 0 rgb(249,123,226),0px -1px 0 rgb(249,123,226),1px 0px 0 rgb(249,123,226),-1px 0px 0 rgb(249,123,226),1px 1px 0 rgb(249,123,226),1px -1px 0 rgb(249,123,226),-1px 1px 0 rgb(249,123,226),-1px -1px 0 rgb(249,123,226),0px 2px 0 rgb(249,123,226),0px -2px 0 rgb(249,123,226),2px 0px 0 rgb(249,123,226),-2px 0px 0 rgb(249,123,226),2px 2px 0 rgb(249,123,226),2px -2px 0 rgb(249,123,226),-2px 2px 0 rgb(249,123,226),-2px -2px 0 rgb(249,123,226),0px 3px 0 rgb(249,123,226),0px -3px 0 rgb(249,123,226),3px 0px 0 rgb(249,123,226),-3px 0px 0 rgb(249,123,226),3px 3px 0 rgb(249,123,226),3px -3px 0 rgb(249,123,226),-3px 3px 0 rgb(249,123,226),-3px -3px 0 rgb(249,123,226);
+-moz-text-shadow:0px 1px 0 rgb(249,123,226),0px -1px 0 rgb(249,123,226),1px 0px 0 rgb(249,123,226),-1px 0px 0 rgb(249,123,226),1px 1px 0 rgb(249,123,226),1px -1px 0 rgb(249,123,226),-1px 1px 0 rgb(249,123,226),-1px -1px 0 rgb(249,123,226),0px 2px 0 rgb(249,123,226),0px -2px 0 rgb(249,123,226),2px 0px 0 rgb(249,123,226),-2px 0px 0 rgb(249,123,226),2px 2px 0 rgb(249,123,226),2px -2px 0 rgb(249,123,226),-2px 2px 0 rgb(249,123,226),-2px -2px 0 rgb(249,123,226),0px 3px 0 rgb(249,123,226),0px -3px 0 rgb(249,123,226),3px 0px 0 rgb(249,123,226),-3px 0px 0 rgb(249,123,226),3px 3px 0 rgb(249,123,226),3px -3px 0 rgb(249,123,226),-3px 3px 0 rgb(249,123,226),-3px -3px 0 rgb(249,123,226);
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: 0;
+    margin-right: 20px;
+}
+.uvn a{
+    margin-right: 20px;
+}
+.btn_2{
+    text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-webkit-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-moz-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+
+    background-color: #eb0ebb;
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    padding: 17px 15px;
+    text-align: center;
+}
+.lv_ct{
+    display: flex;
+    justify-content: space-between;  
+}
+.photo_2{
+    height: 600px;
+    width: 480px;
+    display: block;
+    margin: auto;
+}
+.coloooor{
+    background: rgb(29,253,243);
+    background: radial-gradient(circle, rgba(29,253,243,1) 0%, rgba(23,48,204,1) 100%);
+    padding-bottom: 100px;
+}
+.t_vole{
+    text-shadow:0px 1px 0 rgb(123,215,249),0px -1px 0 rgb(123,215,249),1px 0px 0 rgb(123,215,249),-1px 0px 0 rgb(123,215,249),1px 1px 0 rgb(123,215,249),1px -1px 0 rgb(123,215,249),-1px 1px 0 rgb(123,215,249),-1px -1px 0 rgb(123,215,249),0px 2px 0 rgb(123,215,249),0px -2px 0 rgb(123,215,249),2px 0px 0 rgb(123,215,249),-2px 0px 0 rgb(123,215,249),2px 2px 0 rgb(123,215,249),2px -2px 0 rgb(123,215,249),-2px 2px 0 rgb(123,215,249),-2px -2px 0 rgb(123,215,249),0px 3px 0 rgb(123,215,249),0px -3px 0 rgb(123,215,249),3px 0px 0 rgb(123,215,249),-3px 0px 0 rgb(123,215,249),3px 3px 0 rgb(123,215,249),3px -3px 0 rgb(123,215,249),-3px 3px 0 rgb(123,215,249),-3px -3px 0 rgb(123,215,249);
+-webkit-text-shadow:0px 1px 0 rgb(123,215,249),0px -1px 0 rgb(123,215,249),1px 0px 0 rgb(123,215,249),-1px 0px 0 rgb(123,215,249),1px 1px 0 rgb(123,215,249),1px -1px 0 rgb(123,215,249),-1px 1px 0 rgb(123,215,249),-1px -1px 0 rgb(123,215,249),0px 2px 0 rgb(123,215,249),0px -2px 0 rgb(123,215,249),2px 0px 0 rgb(123,215,249),-2px 0px 0 rgb(123,215,249),2px 2px 0 rgb(123,215,249),2px -2px 0 rgb(123,215,249),-2px 2px 0 rgb(123,215,249),-2px -2px 0 rgb(123,215,249),0px 3px 0 rgb(123,215,249),0px -3px 0 rgb(123,215,249),3px 0px 0 rgb(123,215,249),-3px 0px 0 rgb(123,215,249),3px 3px 0 rgb(123,215,249),3px -3px 0 rgb(123,215,249),-3px 3px 0 rgb(123,215,249),-3px -3px 0 rgb(123,215,249);
+-moz-text-shadow:0px 1px 0 rgb(123,215,249),0px -1px 0 rgb(123,215,249),1px 0px 0 rgb(123,215,249),-1px 0px 0 rgb(123,215,249),1px 1px 0 rgb(123,215,249),1px -1px 0 rgb(123,215,249),-1px 1px 0 rgb(123,215,249),-1px -1px 0 rgb(123,215,249),0px 2px 0 rgb(123,215,249),0px -2px 0 rgb(123,215,249),2px 0px 0 rgb(123,215,249),-2px 0px 0 rgb(123,215,249),2px 2px 0 rgb(123,215,249),2px -2px 0 rgb(123,215,249),-2px 2px 0 rgb(123,215,249),-2px -2px 0 rgb(123,215,249),0px 3px 0 rgb(123,215,249),0px -3px 0 rgb(123,215,249),3px 0px 0 rgb(123,215,249),-3px 0px 0 rgb(123,215,249),3px 3px 0 rgb(123,215,249),3px -3px 0 rgb(123,215,249),-3px 3px 0 rgb(123,215,249),-3px -3px 0 rgb(123,215,249);
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin: 0;
+    padding-top: 50px;
+}
+.volebol{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.btn_3{
+    text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-webkit-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+-moz-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.boll{
+    text-align: center;
+}
+.boll a img{
+    width: 100px;
+    height: 100px;   
+}
+.colr{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(242,50,7);
+    background: radial-gradient(circle, rgba(242,50,7,1) 0%, rgba(224,131,24,1) 99%);
+}
+.t_comlimet h1{
+    margin: 0;
+    text-align: center;
+    text-shadow:0px 1px 0 rgb(255,150,82),0px -1px 0 rgb(255,150,82),1px 0px 0 rgb(255,150,82),-1px 0px 0 rgb(255,150,82),1px 1px 0 rgb(255,150,82),1px -1px 0 rgb(255,150,82),-1px 1px 0 rgb(255,150,82),-1px -1px 0 rgb(255,150,82),0px 2px 0 rgb(255,150,82),0px -2px 0 rgb(255,150,82),2px 0px 0 rgb(255,150,82),-2px 0px 0 rgb(255,150,82),2px 2px 0 rgb(255,150,82),2px -2px 0 rgb(255,150,82),-2px 2px 0 rgb(255,150,82),-2px -2px 0 rgb(255,150,82),0px 3px 0 rgb(255,150,82),0px -3px 0 rgb(255,150,82),3px 0px 0 rgb(255,150,82),-3px 0px 0 rgb(255,150,82),3px 3px 0 rgb(255,150,82),3px -3px 0 rgb(255,150,82),-3px 3px 0 rgb(255,150,82),-3px -3px 0 rgb(255,150,82);
+-webkit-text-shadow:0px 1px 0 rgb(255,150,82),0px -1px 0 rgb(255,150,82),1px 0px 0 rgb(255,150,82),-1px 0px 0 rgb(255,150,82),1px 1px 0 rgb(255,150,82),1px -1px 0 rgb(255,150,82),-1px 1px 0 rgb(255,150,82),-1px -1px 0 rgb(255,150,82),0px 2px 0 rgb(255,150,82),0px -2px 0 rgb(255,150,82),2px 0px 0 rgb(255,150,82),-2px 0px 0 rgb(255,150,82),2px 2px 0 rgb(255,150,82),2px -2px 0 rgb(255,150,82),-2px 2px 0 rgb(255,150,82),-2px -2px 0 rgb(255,150,82),0px 3px 0 rgb(255,150,82),0px -3px 0 rgb(255,150,82),3px 0px 0 rgb(255,150,82),-3px 0px 0 rgb(255,150,82),3px 3px 0 rgb(255,150,82),3px -3px 0 rgb(255,150,82),-3px 3px 0 rgb(255,150,82),-3px -3px 0 rgb(255,150,82);
+-moz-text-shadow:0px 1px 0 rgb(255,150,82),0px -1px 0 rgb(255,150,82),1px 0px 0 rgb(255,150,82),-1px 0px 0 rgb(255,150,82),1px 1px 0 rgb(255,150,82),1px -1px 0 rgb(255,150,82),-1px 1px 0 rgb(255,150,82),-1px -1px 0 rgb(255,150,82),0px 2px 0 rgb(255,150,82),0px -2px 0 rgb(255,150,82),2px 0px 0 rgb(255,150,82),-2px 0px 0 rgb(255,150,82),2px 2px 0 rgb(255,150,82),2px -2px 0 rgb(255,150,82),-2px 2px 0 rgb(255,150,82),-2px -2px 0 rgb(255,150,82),0px 3px 0 rgb(255,150,82),0px -3px 0 rgb(255,150,82),3px 0px 0 rgb(255,150,82),-3px 0px 0 rgb(255,150,82),3px 3px 0 rgb(255,150,82),3px -3px 0 rgb(255,150,82),-3px 3px 0 rgb(255,150,82),-3px -3px 0 rgb(255,150,82);
+    font-size:55px;
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.t_comlimet h2{
+    text-align: center;
+    text-shadow:0px 1px 0 rgb(255,185,82),0px -1px 0 rgb(255,185,82),1px 0px 0 rgb(255,185,82),-1px 0px 0 rgb(255,185,82),1px 1px 0 rgb(255,185,82),1px -1px 0 rgb(255,185,82),-1px 1px 0 rgb(255,185,82),-1px -1px 0 rgb(255,185,82),0px 2px 0 rgb(255,185,82),0px -2px 0 rgb(255,185,82),2px 0px 0 rgb(255,185,82),-2px 0px 0 rgb(255,185,82),2px 2px 0 rgb(255,185,82),2px -2px 0 rgb(255,185,82),-2px 2px 0 rgb(255,185,82),-2px -2px 0 rgb(255,185,82),0px 3px 0 rgb(255,185,82),0px -3px 0 rgb(255,185,82),3px 0px 0 rgb(255,185,82),-3px 0px 0 rgb(255,185,82),3px 3px 0 rgb(255,185,82),3px -3px 0 rgb(255,185,82),-3px 3px 0 rgb(255,185,82),-3px -3px 0 rgb(255,185,82);
+-webkit-text-shadow:0px 1px 0 rgb(255,185,82),0px -1px 0 rgb(255,185,82),1px 0px 0 rgb(255,185,82),-1px 0px 0 rgb(255,185,82),1px 1px 0 rgb(255,185,82),1px -1px 0 rgb(255,185,82),-1px 1px 0 rgb(255,185,82),-1px -1px 0 rgb(255,185,82),0px 2px 0 rgb(255,185,82),0px -2px 0 rgb(255,185,82),2px 0px 0 rgb(255,185,82),-2px 0px 0 rgb(255,185,82),2px 2px 0 rgb(255,185,82),2px -2px 0 rgb(255,185,82),-2px 2px 0 rgb(255,185,82),-2px -2px 0 rgb(255,185,82),0px 3px 0 rgb(255,185,82),0px -3px 0 rgb(255,185,82),3px 0px 0 rgb(255,185,82),-3px 0px 0 rgb(255,185,82),3px 3px 0 rgb(255,185,82),3px -3px 0 rgb(255,185,82),-3px 3px 0 rgb(255,185,82),-3px -3px 0 rgb(255,185,82);
+-moz-text-shadow:0px 1px 0 rgb(255,185,82),0px -1px 0 rgb(255,185,82),1px 0px 0 rgb(255,185,82),-1px 0px 0 rgb(255,185,82),1px 1px 0 rgb(255,185,82),1px -1px 0 rgb(255,185,82),-1px 1px 0 rgb(255,185,82),-1px -1px 0 rgb(255,185,82),0px 2px 0 rgb(255,185,82),0px -2px 0 rgb(255,185,82),2px 0px 0 rgb(255,185,82),-2px 0px 0 rgb(255,185,82),2px 2px 0 rgb(255,185,82),2px -2px 0 rgb(255,185,82),-2px 2px 0 rgb(255,185,82),-2px -2px 0 rgb(255,185,82),0px 3px 0 rgb(255,185,82),0px -3px 0 rgb(255,185,82),3px 0px 0 rgb(255,185,82),-3px 0px 0 rgb(255,185,82),3px 3px 0 rgb(255,185,82),3px -3px 0 rgb(255,185,82),-3px 3px 0 rgb(255,185,82),-3px -3px 0 rgb(255,185,82);
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.all_btn_comliment{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 60px;
+}
+
+.btn_4{
+    text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    -webkit-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    -moz-text-shadow:0px 1px 0 rgb(220,30,65),0px -1px 0 rgb(220,30,65),1px 0px 0 rgb(220,30,65),-1px 0px 0 rgb(220,30,65),1px 1px 0 rgb(220,30,65),1px -1px 0 rgb(220,30,65),-1px 1px 0 rgb(220,30,65),-1px -1px 0 rgb(220,30,65);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.all_btn_comliment a img{
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+footer{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.foot p{
+    margin: 0;
+    text-align: left;
+    font-size:13px;
+    text-align: center;
+}
+.tanya{
+    width: 80px;
+    height: 90px;
+    text-align: right;
+}

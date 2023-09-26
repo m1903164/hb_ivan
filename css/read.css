@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background: rgb(49,79,227);
+    background: radial-gradient(circle, rgba(49,79,227,1) 0%, rgba(240,38,79,1) 100%);
+}
+
+.one_3_men{
+    padding-top: 10px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.kilka{
+    width: 400px;
+    height: 530px;
+    flex-shrink: 0;
+    border: 2px dashed #000000;
+    padding: 5px ;
+}
+img{
+    width: 330px;
+    height: 380px;
+}
+p{
+    color:#000000;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.kolya{
+    width: 400px;
+    height: 750px;
+    flex-shrink: 0;
+    border: 2px dashed #000000;
+    padding: 5px ;
+}
+.pirog{
+    margin: auto;
+    width: 400px;
+    height: 530px;
+    flex-shrink: 0;
+    border: 2px dashed #000000;
+    padding: 5px ;
+}
